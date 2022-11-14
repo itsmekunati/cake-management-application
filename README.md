@@ -17,6 +17,9 @@ Authentication Process for user to use POST Endpoint:
 3. then go to POST endpoint and click Try it out
 4. or can copy the Bearer token generated in Swagger and use in Postman to do the same 
 
+To run tests :
+---
+mvn test
 
 Endpoints:
 ---

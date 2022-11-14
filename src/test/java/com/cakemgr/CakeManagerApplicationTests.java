@@ -12,10 +12,6 @@ import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
 
 import java.net.URL;
-import java.util.Map;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class CakeManagerApplicationTests {
@@ -38,7 +34,7 @@ class CakeManagerApplicationTests {
 	}
 
 	@Test
-	public void testAddingCake() throws Exception {
+	public void testAddingCake() {
 		Cake cake = new Cake();
 		cake.setId(1);
 		cake.setTitle("Cheese Cake");

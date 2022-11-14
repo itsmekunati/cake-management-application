@@ -3,7 +3,6 @@ package com.cakemgr.controller;
 import java.io.IOException;
 import java.util.List;
 
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,7 +13,6 @@ import com.cakemgr.model.Cake;
 import com.cakemgr.service.CakeService;
 
 @RestController
-//@SecurityRequirement(name = "javainuseapi")
 public class CakeController {
     @Autowired
     CakeService CakeService;
